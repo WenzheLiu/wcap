@@ -103,6 +103,10 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/teamInfo'
+          application/xml:
+            schema:
+              type: object
+              properties: {}
       tags:
         - teams
     patch:
