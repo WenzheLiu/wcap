@@ -4,10 +4,10 @@ info:
   description: WCAP API define
   contact:
     name: API Support
-    email: wen-zhe.liu@asml.com
+    email: wen-zhe.liu@xxxx.com
   version: 0.0.1
 servers:
-  - url: wcap-brion-tw.asml.com/api/v1
+  - url: wcap-xxxx-tw.xxxx.com/api/v1
     description: wcap api
 paths:
   '/teams/{id}':
@@ -143,7 +143,7 @@ components:
         teamInfo:
           name: AS
           owners:
-            - liang@asml.com
+            - liang@xxxx.com
           teams:
             - id: '12345'
               name: MXP-GUI
